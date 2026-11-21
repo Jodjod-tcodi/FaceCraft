@@ -1,0 +1,26 @@
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Datasets (large files)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/*/.gitkeep
+data/processed/images/*
+!data/processed/images/.gitkeep
+
+# Model weights
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
