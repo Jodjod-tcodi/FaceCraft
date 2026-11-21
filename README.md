@@ -13,12 +13,10 @@ FaceCraft/
 │   │   ├── celeba_dialog/
 │   │   └── face2text/
 │   │
-│   ├── processed/
-│   │   ├── images/
-│   │   ├── captions.csv
-│   │   └── metadata.csv
-│   │
-│   └── samples/
+│   └── processed/
+│       ├── images/
+│       ├── captions.csv
+│       └── metadata.csv
 │
 ├── notebooks/
 │   └── Deliverable_2_Preprocessing.ipynb
@@ -32,7 +30,6 @@ FaceCraft/
 
 - **`data/raw/`**: Raw datasets (`celeba`, `celeba_dialog`, `face2text`).
 - **`data/processed/`**: Cleaned and formatted images, aligned captions (`captions.csv`), and metadata (`metadata.csv`).
-- **`data/samples/`**: Sample images and intermediate outputs for quick verification.
 - **`notebooks/`**: Jupyter notebooks for exploratory data analysis, preprocessing pipelines, and experiments.
 - **`models/`**: Saved model checkpoints and weights.
 
